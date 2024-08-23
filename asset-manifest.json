@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/draculaflow/static/css/main.a46f6205.css",
-    "main.js": "/draculaflow/static/js/main.ac3d6967.js",
+    "main.js": "/draculaflow/static/js/main.f2e5418f.js",
     "static/js/453.bb3f8e0a.chunk.js": "/draculaflow/static/js/453.bb3f8e0a.chunk.js",
     "static/media/DF5-33.mp3": "/draculaflow/static/media/DF5-33.4eff5f25d5c903bfe473.mp3",
     "static/media/DF5-40.mp3": "/draculaflow/static/media/DF5-40.7296735e74a5ff224673.mp3",
@@ -74,11 +74,11 @@
     "static/media/logo.svg": "/draculaflow/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/draculaflow/index.html",
     "main.a46f6205.css.map": "/draculaflow/static/css/main.a46f6205.css.map",
-    "main.ac3d6967.js.map": "/draculaflow/static/js/main.ac3d6967.js.map",
+    "main.f2e5418f.js.map": "/draculaflow/static/js/main.f2e5418f.js.map",
     "453.bb3f8e0a.chunk.js.map": "/draculaflow/static/js/453.bb3f8e0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a46f6205.css",
-    "static/js/main.ac3d6967.js"
+    "static/js/main.f2e5418f.js"
   ]
 }
