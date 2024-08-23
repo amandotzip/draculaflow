@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/draculaflow/static/css/main.d936892a.css",
+    "main.js": "/draculaflow/static/js/main.ce9a0b3d.js",
+    "static/js/453.213cfe5d.chunk.js": "/draculaflow/static/js/453.213cfe5d.chunk.js",
+    "static/media/DF3-12.mp3": "/draculaflow/static/media/DF3-12.927170b4c754b739fc35.mp3",
+    "static/media/DF3-15.mp3": "/draculaflow/static/media/DF3-15.256c33036d11d8595093.mp3",
+    "static/media/DF3-18.mp3": "/draculaflow/static/media/DF3-18.f780862ad291d7cdf36f.mp3",
+    "static/media/DF3-04.mp3": "/draculaflow/static/media/DF3-04.bfb674d8584e55a398ec.mp3",
+    "static/media/DF3-16.mp3": "/draculaflow/static/media/DF3-16.498ac215e6966db7e594.mp3",
+    "static/media/DF3-09.mp3": "/draculaflow/static/media/DF3-09.a33c0643b93a79621707.mp3",
+    "static/media/DF1-2.mp3": "/draculaflow/static/media/DF1-2.f1699837031fba7001be.mp3",
+    "static/media/DF3-11.mp3": "/draculaflow/static/media/DF3-11.bd0f2387fdd5ef9492e7.mp3",
+    "static/media/DF3-20.mp3": "/draculaflow/static/media/DF3-20.03efe5018b64daa8feee.mp3",
+    "static/media/DF1-1.mp3": "/draculaflow/static/media/DF1-1.86bfea12ef80cbf498b4.mp3",
+    "static/media/DF3-06.mp3": "/draculaflow/static/media/DF3-06.0b220211d59664507247.mp3",
+    "static/media/DF3-08.mp3": "/draculaflow/static/media/DF3-08.90f97837ebdebba8d062.mp3",
+    "static/media/DF3-02.mp3": "/draculaflow/static/media/DF3-02.6936d4aa735eab175779.mp3",
+    "static/media/DF3-07.mp3": "/draculaflow/static/media/DF3-07.72dde15ba6c208040b4e.mp3",
+    "static/media/DF3-10.mp3": "/draculaflow/static/media/DF3-10.a15d89b8d2b2b5ee4537.mp3",
+    "static/media/DF3-17.mp3": "/draculaflow/static/media/DF3-17.d6e735dbae44b7102a25.mp3",
+    "static/media/DF3-14.mp3": "/draculaflow/static/media/DF3-14.0e2c9c4cabdd0184caf1.mp3",
+    "static/media/DF3-22.mp3": "/draculaflow/static/media/DF3-22.0e099b1bf376fcc7b566.mp3",
+    "static/media/DF1-3.mp3": "/draculaflow/static/media/DF1-3.b01a28a24c419834a729.mp3",
+    "static/media/DF3-03.mp3": "/draculaflow/static/media/DF3-03.5b7450224212f8894ac7.mp3",
+    "static/media/DF3-13.mp3": "/draculaflow/static/media/DF3-13.f9848504fc630d13c2b7.mp3",
+    "static/media/DF3-21.mp3": "/draculaflow/static/media/DF3-21.4db56455667e0e223e16.mp3",
+    "static/media/DF3-19.mp3": "/draculaflow/static/media/DF3-19.367acc2ec5986e90b0fb.mp3",
+    "static/media/DF3-01.mp3": "/draculaflow/static/media/DF3-01.9e83e8a46ad66a7547c8.mp3",
+    "static/media/DF3-05.mp3": "/draculaflow/static/media/DF3-05.8a737c71e4324139afb3.mp3",
+    "static/media/logo.svg": "/draculaflow/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/draculaflow/index.html",
+    "main.d936892a.css.map": "/draculaflow/static/css/main.d936892a.css.map",
+    "main.ce9a0b3d.js.map": "/draculaflow/static/js/main.ce9a0b3d.js.map",
+    "453.213cfe5d.chunk.js.map": "/draculaflow/static/js/453.213cfe5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d936892a.css",
+    "static/js/main.ce9a0b3d.js"
+  ]
+}
