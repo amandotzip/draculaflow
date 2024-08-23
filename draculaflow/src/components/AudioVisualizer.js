@@ -8,7 +8,7 @@ function AudioVisualizer() {
     const [audioElement, setAudioElement] = useState(null);
     const [isPlaying, setIsPlaying] = useState(false);
 
-    // Load sound files from assets
+    // Loads all mp3 or wav files in the sounds folder
     const requireContext = require.context('../assets/sounds', false, /\.(mp3|wav)$/);
     const sounds = requireContext.keys().map(requireContext);
 
@@ -40,20 +40,21 @@ function AudioVisualizer() {
 
 
         // Function to update canvas size
-        const updateCanvasSize = () => {
-            if (canvas) {
-                // Get the size from CSS
-                const width = canvas.clientWidth;
-                const height = canvas.clientHeight;
+        // const updateCanvasSize = () => {
+        //     if (canvas) {
+        //         // Get the size from CSS
+        //         const width = canvas.clientWidth;
+        //         const height = canvas.clientHeight;
 
-                // Set internal canvas size
-                canvas.width = width;
-                canvas.height = height;
-            }
-        };
+        //         // Set internal canvas size
+        //         canvas.width = width;
+        //         canvas.height = height;
+        //     }
+        // };
 
         // Update size on component mount
-        updateCanvasSize();
+        // updateCanvasSize();
+        
         const draw = () => {
             requestAnimationFrame(draw);
            
@@ -78,7 +79,7 @@ function AudioVisualizer() {
 
             // Define the frequency range you want to display
             const minFrequency = 0; // Minimum frequency in Hz
-            const maxFrequency = 20000; // Maximum frequency in Hz
+            const maxFrequency = 44100; // Maximum frequency in Hz
 
             // Calculate the index range for the desired frequency range
             const nyquist = 44100 / 2; // Assuming a sample rate of 44100 Hz
@@ -89,11 +90,8 @@ function AudioVisualizer() {
             const start = Math.max(minIndex, 0);
             const end = Math.min(maxIndex, bufferLength);
 
-            // Scale factors to keep waveform size consistent
-            const scaleX = canvas.width / (end - start); // Scaling width
-            const scaleY = maxHeight / 128.0; // Scaling height based on normalized value
 
-
+            
             for (let i = start; i < end; i++) {
                 const v = dataArray[i] / 128.0; // Normalize data
                 const y = v * maxHeight;
