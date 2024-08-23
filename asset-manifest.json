@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/draculaflow/static/css/main.53f333c4.css",
-    "main.js": "/draculaflow/static/js/main.af5d7666.js",
+    "main.css": "/draculaflow/static/css/main.9a0691dc.css",
+    "main.js": "/draculaflow/static/js/main.30461019.js",
     "static/js/453.213cfe5d.chunk.js": "/draculaflow/static/js/453.213cfe5d.chunk.js",
     "static/media/DF3-12.mp3": "/draculaflow/static/media/DF3-12.927170b4c754b739fc35.mp3",
     "static/media/DF3-15.mp3": "/draculaflow/static/media/DF3-15.256c33036d11d8595093.mp3",
@@ -30,12 +30,12 @@
     "static/media/DF3-05.mp3": "/draculaflow/static/media/DF3-05.8a737c71e4324139afb3.mp3",
     "static/media/logo.svg": "/draculaflow/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/draculaflow/index.html",
-    "main.53f333c4.css.map": "/draculaflow/static/css/main.53f333c4.css.map",
-    "main.af5d7666.js.map": "/draculaflow/static/js/main.af5d7666.js.map",
+    "main.9a0691dc.css.map": "/draculaflow/static/css/main.9a0691dc.css.map",
+    "main.30461019.js.map": "/draculaflow/static/js/main.30461019.js.map",
     "453.213cfe5d.chunk.js.map": "/draculaflow/static/js/453.213cfe5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53f333c4.css",
-    "static/js/main.af5d7666.js"
+    "static/css/main.9a0691dc.css",
+    "static/js/main.30461019.js"
   ]
 }
