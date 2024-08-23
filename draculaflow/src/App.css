@@ -63,7 +63,9 @@
   word-break: break-word;
   border: 0;
 }
-
+.button-34:hover {
+  background-color: hsl(0, 100%, 12%);
+}
 
 /* This style is applied when the button is pressed */
 .button-34:active {
@@ -74,3 +76,16 @@
 .button-34:focus {
   outline: none; /* Remove focus outline */
 }
+
+
+/* .audio-visualizer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+} */
+/* 
+.canvas {
+  border: 1px solid #ddd;
+} */

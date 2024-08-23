@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import AudioButton from './components/AudioButton';
+import AudioVisualizer from './components/AudioVisualizer';
+import BackgroundImageComponent from './components/BackgroundImageComponent';
 
 function App() {
   return (
     <div className="App">
+      {/* <BackgroundImageComponent /> */}
       <header className="App-header">
-      <h1>Dracula Flow Scripture</h1>
-        <img src="/portrait.jpg" alt="My Description" style={{ width: '300px', height: 'auto' }} />
+      <h1>DRACULA FLOW SCRIPTURE</h1>
+        <img src="/portrait.jpg" alt="My Description" style={{ width: '50%', maxWidth: '500px', height: 'auto' }} />
         <p>
         </p>
         <a
@@ -17,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
-        <AudioButton /> {/* Use the AudioButton component */}
+        <AudioVisualizer /> {/* Use the AudioButton component */}
       </header>
       
     </div>
