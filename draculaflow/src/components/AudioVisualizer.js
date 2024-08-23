@@ -54,7 +54,7 @@ function AudioVisualizer() {
 
         // Update size on component mount
         // updateCanvasSize();
-        
+
         const draw = () => {
             requestAnimationFrame(draw);
            
@@ -112,7 +112,14 @@ function AudioVisualizer() {
     // Handle audio playback and visualization
     const playAudio = () => {
         
+
+
+        
         if (audioContext && !isPlaying) {
+            // Resume the audio context if it's suspended
+            if (audioContext.state === 'suspended') {
+                audioContext.resume();
+            }
             const audio = new Audio(sounds[Math.floor(Math.random() * sounds.length)]);
             const sourceNode = audioContext.createMediaElementSource(audio);
             sourceNode.connect(analyser);
@@ -126,6 +133,7 @@ function AudioVisualizer() {
 
             audio.onended = () => {
                 setIsPlaying(false);
+                sourceNode.disconnect(); // Clean up after playback ends
             };
         }
     };
